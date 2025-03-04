@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.navbar_left_side_main_container {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navbar_left_side_main_container h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.navbar_left_side_main_container h1 span {
+  font-weight: 600;
+}
+
+.navbar_right_side_main_container {
+  gap: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar_checkbox_container {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  border-radius: 32px;
+  cursor: pointer;
+  background-color: #F4F7FF;
+}
+
+.navbar_theme_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #F4F7FF;
+}
+
+.navbar_theme_container:active {
+  background-color: #e9ebf3;
+}
