@@ -11,29 +11,64 @@
   <body>
     <header>
       <nav>
-
         <div class="navbar_left_side_main_container">
-          <img src="./assets/logo.png" alt="logo">
+          <img src="./assets/logo.png" alt="logo" />
           <h1>Dev<span>Board</span></h1>
         </div>
 
         <div class="navbar_right_side_main_container">
-
           <div class="navbar_checkbox_container">
-            <img src="./assets/checkbox.png" alt="Image">
+            <img src="./assets/checkbox.png" alt="Image" />
             <h2>23</h2>
           </div>
 
-          <div class="navbar_theme_container">
-            <img src="./assets/theme-btn.png" alt="Image">
+          <div onclick="handleThemeColor()" class="navbar_theme_container">
+            <img src="./assets/theme-btn.png" alt="Image" />
           </div>
-
         </div>
-
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <section class="dashboard_main_container">
+
+        <div class="dashboard_left_side_container">
+          <div class="dashboard_top_content_container">
+
+            <div class="top_task_container">
+              <div>
+                <img src="./assets/checkbox.png" alt="Image">
+                <div>
+                  <p>Task Assigned</p>
+                  <h3>05</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="top_blog_container">
+              <div>
+                <img src="./assets/board.png" alt="Image">
+                <h3>Discover Something <br> New Today!</h3>
+              </div>
+            </div>
+
+            <div class="top_date_container">
+              <div>
+                <img src="./assets/calender.png" alt="Image">
+                <p>Wed,</p>
+                <h3>Jul 28 2025</h3>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="dashboard_bottom_content_container"></div>
+        </div>
+
+        <div class="dashboard_right_side_container">Right side container</div>
+
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
