@@ -5,5 +5,5 @@ let colorIndex = 0;
 const handleThemeColor = () => {
   const body = document.querySelector("body");
   body.style.backgroundColor = themeColor[colorIndex];
-  colorIndex = (colorIndex + 1) % themeColor.length;
+  colorIndex = (colorIndex + 1) % themeColor.length; 
 };
