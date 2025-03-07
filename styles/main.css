@@ -1,3 +1,28 @@
 main {
+  margin-top: 20px;
+}
+
+.dashborad_main_container {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Main two container style__ */
+
+.dashboard_right_side_task_main_container {
+  width: 75%;
+  padding: 20px;
+  border-radius: 8px;
   background-color: #ffffff;
+  /* border: 2px solid red; */
+}
+
+.dashboard_left_side_comment_main_container {
+  width: 25%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 2px solid purple;
 }
