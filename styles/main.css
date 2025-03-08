@@ -261,3 +261,10 @@ main {
   color: #4a4b4d;
   cursor: pointer;
 }
+
+/* Functional button style__ */
+
+.task_btn {
+  cursor: not-allowed !important;
+  background-color: #b8bfee !important;
+}

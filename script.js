@@ -21,15 +21,30 @@ dateElement.innerText = currentDate;
 
 // Task__
 
-const handleTask = () => {
+const handleTask = (clickedButton) => {
   const taskCount = document.getElementById("task_number").innerText;
-  const convertedTadkCount = Number(taskCount);
+  const convertedTaskCount = Number(taskCount);
+  const completedTaskCount = document.getElementById("complete_task_number").innerText;
+  const convertedCompletedTaskCount = Number(completedTaskCount);
 
-  if(convertedTadkCount < 1) {
+  window.alert("Board updated successfully");
+
+  if(convertedTaskCount < 1) {
     return;
   }
 
-  const remainingTaskCount = convertedTadkCount - 1;
+  const remainingTaskCount = convertedTaskCount - 1;
   const newTaskCount = document.getElementById("task_number");
   newTaskCount.innerText = remainingTaskCount;
+
+  if(convertedCompletedTaskCount < 1) {
+    return;
+  }
+
+  const remainingCompletedTask = convertedCompletedTaskCount + 1
+  const newCompletedTask = document.getElementById("complete_task_number");
+  newCompletedTask.innerText = remainingCompletedTask;
+
+  clickedButton.disabled = true;
+  clickedButton.classList.add("task_btn");
 }
