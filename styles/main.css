@@ -90,6 +90,7 @@ main {
     #6c7ffa 52.66%,
     #9ba8f8 99.733%
   );
+  cursor: pointer;
 }
 
 .task_blog_container h3 {

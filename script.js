@@ -8,6 +8,12 @@ const handleThemeColor = () => {
   colorIndex = (colorIndex + 1) % themeColor.length;
 };
 
+// Change page__
+
+const handleRouting = () => {
+  window.location.href = "./blog.html";
+}
+
 // Set current data__
 const date = {
   weekday: "short",
