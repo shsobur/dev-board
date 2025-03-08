@@ -67,6 +67,7 @@
           </div>
 
           <div class="task_bottom_container">
+
             <div class="task_box_main_container">
               <h3>ShopEase</h3>
               <div class="task_box_inner_container">
@@ -173,16 +174,12 @@
                 <p>Activity Log</p>
               </div>
               <div class="comment_top_button_container">
-                <button>Clear History</button>
+                <button onclick="handleResetComment()">Clear History</button>
               </div>
             </div>
           </div>
 
-          <div class="main_comment_container">
-            <p class="comment">
-              You have Complete The Task Add Dark Mode at 12:48:15 PM
-            </p>
-          </div>
+          <div id="comment_parent" class="main_comment_container"></div>
         </div>
       </section>
     </main>
