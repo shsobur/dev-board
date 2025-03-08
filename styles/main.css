@@ -27,7 +27,6 @@ main {
   padding: 20px;
   border-radius: 8px;
   background-color: #ffffff;
-  border: 2px solid purple;
 }
 
 /* Dashboard top container style__ */
@@ -37,7 +36,7 @@ main {
   display: grid;
   padding-bottom: 20px;
   grid-template-columns: repeat(12, 1fr);
-  border-bottom: 2px dashed #3752FD33;
+  border-bottom: 2px dashed #3752fd33;
 }
 
 /* Top container 01__ */
@@ -142,7 +141,7 @@ main {
 .task_box_main_container {
   padding: 20px;
   border-radius: 8px;
-  background-color: #F4F7FF;
+  background-color: #f4f7ff;
 }
 
 .task_box_main_container h3 {
@@ -178,7 +177,7 @@ main {
   align-items: center;
   justify-content: space-between;
   padding-top: 10px;
-  border-top: 2px dashed #3752FD33;
+  border-top: 2px dashed #3752fd33;
 }
 
 .task_inner_bottom_container p {
@@ -197,9 +196,67 @@ main {
   font-weight: 500;
   color: #ffffff;
   cursor: pointer;
-  background-color: #3752FD;
+  background-color: #3752fd;
 }
 
 .task_inner_bottom_container button:hover {
   background-color: #3047db;
+}
+
+/* Comment box container style__ */
+
+.comment_top_main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed #3752fd33;
+}
+
+.comment_top_image_container {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment_top_image_container p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #00303c;
+}
+
+.comment_top_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.comment_top_button_container button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #3752fd;
+}
+
+.comment_top_button_container button:hover {
+  background-color: #3047db;
+}
+
+.main_comment_container {
+  margin-top: 20px;
+}
+
+.comment {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #f4f7ff;
+  margin-bottom: 20px;
+  color: #4a4b4d;
+  cursor: pointer;
 }
