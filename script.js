@@ -10,9 +10,13 @@ const handleThemeColor = () => {
 
 // Change page__
 
-const handleRouting = () => {
+const handleBlogRoute = () => {
   window.location.href = "./blog.html";
-}
+};
+
+const handleHomeRoute = () => {
+  window.location.href = "./index.html";
+};
 
 // Set current data__
 const date = {

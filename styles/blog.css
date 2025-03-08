@@ -44,7 +44,7 @@ main section {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
-  border-radius: 8px; 
+  border-radius: 8px;
   background-color: #ffffff;
 }
 
@@ -58,7 +58,6 @@ main section {
 
 .ans_main_container {
   padding: 20px;
-  
 }
 
 .ans_main_container h2 {

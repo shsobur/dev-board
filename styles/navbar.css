@@ -40,7 +40,7 @@ nav {
   padding: 8px 20px;
   border-radius: 32px;
   cursor: pointer;
-  background-color: #F4F7FF;
+  background-color: #f4f7ff;
 }
 
 .navbar_theme_container {
@@ -50,7 +50,7 @@ nav {
   padding: 12px;
   cursor: pointer;
   border-radius: 50%;
-  background-color: #F4F7FF;
+  background-color: #f4f7ff;
 }
 
 .navbar_theme_container:active {
